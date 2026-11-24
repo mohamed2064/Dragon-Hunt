@@ -1,4 +1,4 @@
-# This .gitignore file should be placed at the root of your Unity project directory
+# Unity ignore rules for this repository and the nested Dragon Hunt project
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
@@ -6,6 +6,19 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
+.DS_Store
+
+# The Unity project is nested, so root-anchored rules below do not cover it.
+/Dragon Hunt/[Ll]ibrary/
+/Dragon Hunt/[Tt]emp/
+/Dragon Hunt/[Oo]bj/
+/Dragon Hunt/[Bb]uild/
+/Dragon Hunt/[Bb]uilds/
+/Dragon Hunt/[Ll]ogs/
+/Dragon Hunt/[Uu]ser[Ss]ettings/
+/Dragon Hunt/[Mm]emory[Cc]aptures/
+/Dragon Hunt/[Rr]ecordings/
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
